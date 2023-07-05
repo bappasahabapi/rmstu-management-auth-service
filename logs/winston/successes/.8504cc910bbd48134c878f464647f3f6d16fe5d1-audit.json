@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/.8504cc910bbd48134c878f464647f3f6d16fe5d1-audit.json",
+    "files": [
+        {
+            "date": 1688569041937,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-05-07-20-success.log",
+            "hash": "999999b4eeb08d177d0c3ad6fca4b2c76b6ac27883243651486dc78f0ec5de06"
+        }
+    ],
+    "hashType": "sha256"
+}

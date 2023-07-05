@@ -1,0 +1,16 @@
+### Create Faculty
+POST   http://localhost:5001/api/v1/academic-faculty/create-faculty
+Content-Type: application/json
+
+{
+   "title":"Department of Computer Science and Engineering"
+}
+
+
+### Get all faculties
+GET  http://localhost:5001/api/v1/academic-faculty/
+Content-Type: application/json
+
+### Get single faculty
+GET  http://localhost:5001/api/v1/academic-faculty/64941bf042ccea8b8dc765f7
+Content-Type: application/json

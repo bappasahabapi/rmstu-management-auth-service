@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/ph/next-level-js/rmstu-management-auth-service/logs/winston/errors/.6be3222f0d3a1e5c0b3894022008af92399be97b-audit.json",
+    "files": [
+        {
+            "date": 1688574855902,
+            "name": "/Users/ph/next-level-js/rmstu-management-auth-service/logs/winston/errors/bappa-2023-05-07-22-error.log",
+            "hash": "4ea2e92857a675d74a1e46614cd9f48c52683345e2d6e21628e005039172f609"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,52 @@
+
+
+### Get all semester
+GET  http://localhost:5000/api/v1/academic-semesters
+Content-Type: application/json
+
+### Get single semester by id
+GET  http://localhost:5000/api/v1/academic-semesters/649085108e1f4ac4cb069c0b
+Content-Type: application/json
+
+
+### Create semester
+POST   http://localhost:5000/api/v1/academic-semesters/create-semester
+Content-Type: application/json
+
+{
+    "title":"Summer",
+    "year":"3033",
+    "code": "02",
+    "startMonth":"January",
+    "endMonth":"May"
+}
+
+### Update semester
+PATCH    http://localhost:5000/api/v1/academic-semesters/649085108e1f4ac4cb069c0b
+Content-Type: application/json
+
+{
+    "title":"Autumn",
+    "year":"3033",
+    "code": "01",
+    "startMonth":"January",
+    "endMonth":"May"
+}
+
+### Delete semester
+DELETE     http://localhost:5000/api/v1/academic-semesters/649085108e1f4ac4cb069c0b
+Content-Type: application/json
+
+### Search semester
+GET      http://localhost:5000/api/v1/academic-semesters/?searchTerm=2025
+Content-Type: application/json
+
+### Eaxact match filter
+GET      http://localhost:5000/api/v1/academic-semesters/?title=Autumn&year=2025
+Content-Type: application/json
+
+### Pagination check
+GET      http://localhost:5000/api/v1/academic-semesters//?sortBy=title&sortOrder=desc
+Content-Type: application/json
+
+

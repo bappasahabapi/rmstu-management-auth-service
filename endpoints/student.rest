@@ -1,0 +1,54 @@
+### create-student
+POST   http://localhost:5001/api/v1/users/create-student
+Content-Type: application/json
+
+{
+    "password": "123456",     
+
+    "student": {
+        "name": {
+            "firstName": "Bappa",
+            "lastName": "Saha",
+            "middleName": "Bapi"
+        },
+        "dateOfBirth": "24-04-1998",
+        "gender": "male",
+        "bloodGroup": "O+",
+        "email": "user@gmail.com",
+        "contactNo": "user_4",
+        "emergencyContactNo": "01600000000",
+        "presentAddress": "CTG",
+        "permanentAddress": "CTG",
+        "academicFaculty": "64941bc242ccea8b8dc765f3",
+        "academicDepartment": "6494394ead478d653638a381",
+        "academicSemester": "649085108e1f4ac4cb069c0b",
+        "guardian": {
+            "fatherName": "MD.ABBU",
+            "fatherOccupation": "Retired Teacher",
+            "fatherContactNo": "01600000000",
+            "motherName": "Mrs.Ammu",
+            "motherOccupation": "Housewife",
+            "motherContactNo": "01600000000",
+            "address": "CTG"
+        },
+        "localGuardian": {
+            "name": "Zahid Hasan",
+            "occupation": "Service Holder",
+            "contactNo": "01600000000",
+            "address": "Dhaka"
+        }
+
+      }
+}
+
+
+### update-student
+PATCH    http://localhost:5000/api/v1/students/330100002
+Content-Type: application/json
+
+{
+    "name":{
+        "middleName":"s"
+    },
+    "contactNo":"013"
+}

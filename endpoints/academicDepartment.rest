@@ -1,0 +1,13 @@
+### Create Department
+POST   http://localhost:5001/api/v1/academic-departments/create-department
+Content-Type: application/json
+{
+    "title":"Faculty of computer science",
+    "academicFaculty":"6493d12cf3d62e23b1329f1f"
+}
+
+
+### Get all departments
+GET  http://localhost:5001/api/v1/academic-departments
+Content-Type: application/json
+
